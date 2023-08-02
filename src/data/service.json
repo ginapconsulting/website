@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "path": "/service-details",
+    "image": "images/service/sr-3-5.jpg",
+    "icon": "images/icon/sr-icon-3-5.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "AI/Machine Learning",
+    "text": "Utilize our AI and Machine Learning services to automate processes, predict trends, and harness unmatched business insights."
+  },
+  {
+    "id": "2",
+    "path": "/service-details",
+    "image": "images/service/sr-3-2.jpg",
+    "icon": "images/icon/sr-icon-3-2.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Software Development",
+    "text": "Explore custom solutions with our Software Development services, designed to boost your business productivity and growth."
+  },
+  {
+    "id": "3",
+    "path": "/service-details",
+    "image": "images/service/sr-3-1.jpg",
+    "icon": "images/icon/sr-icon-3-1.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Cloud Services",
+    "text": "Benefit from our flexible, secure Cloud Services to streamline operations, enhance collaboration, and safeguard your data."
+  },
+  {
+    "id": "4",
+    "path": "/service-details",
+    "image": "images/service/sr-3-3.jpg",
+    "icon": "images/icon/sr-icon-3-3.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "IT Management",
+    "text": "Align your technology with your business objectives through us, from strategic planning to maintenance."
+  },
+  {
+    "id": "5",
+    "path": "/service-details",
+    "image": "images/service/sr-3-4.jpg",
+    "icon": "images/icon/sr-icon-3-4.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Business Analytics",
+    "text": "Turn data into actionable insights with our Business Analytics services, driving informed decisions and strategic growth."
+  },
+  {
+    "id": "6",
+    "path": "/service-details",
+    "image": "images/service/sr-3-6.jpg",
+    "icon": "images/icon/sr-icon-3-6.png",
+    "bgShape": "images/bg/sr-box-bg-1.jpg",
+    "bgShape2": "images/shape/sr-bg-shape-2-1.png",
+    "title": "Training",
+    "text": "Empower your team with our tailored training programs, keeping them abreast with the latest digital trends and tools."
+  }
+]

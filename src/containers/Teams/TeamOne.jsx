@@ -45,6 +45,8 @@ const TeamOne = ({...restProps})=> {
             name="Victor Ocheja"
             desgination="Director, Business & Operations"
             image="images/team/victor.png"
+                      linkedIn={'https://www.linkedin.com/in/victor-ocheja-0b1b0b1a/'}
+                      twitter={'https://twitter.com/ochejav'}
           />
           <TeamBoxOne path="/"
             name="Vera Oguche"
@@ -62,6 +64,7 @@ const TeamOne = ({...restProps})=> {
             desgination="Senior Partner - AI & Blockchain"
             image="images/team/patrick.jpeg"
             linkedIn={'https://www.linkedin.com/in/patrickocheja/'}
+                      twitter={'https://twitter.com/ochejapatrick'}
           />
         </Slider>
       </div>

@@ -12,7 +12,7 @@ const HomeOne = ()=> (
       <AboutOne className="space-bottom"/>
     </div>
     <ServiceOne className="space-top space-extra-bottom"/>
-    <TeamOne className="space-top space-extra-bottom"/>
+    {/*<TeamOne className="space-top space-extra-bottom"/>*/}
     <FooterOne/>
     <ScrollTopBtn/>
   </Fragment>

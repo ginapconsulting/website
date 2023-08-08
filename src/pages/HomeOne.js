@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {ScrollTopBtn, Seo} from '../components';
-import {AboutOne, FeatureOne, FooterOne, HeaderTwo, HeroOne, ServiceOne, TeamOne,} from '../containers';
+import {AboutOne, FeatureOne, FooterOne, HeaderTwo, HeroOne, ServiceOne,} from '../containers';
 
 const HomeOne = ()=> (
   <Fragment>

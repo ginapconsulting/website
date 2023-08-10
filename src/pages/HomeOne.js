@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {ScrollTopBtn, Seo} from '../components';
-import {AboutOne, FeatureOne, FooterOne, HeaderTwo, HeroOne, ServiceOne,} from '../containers';
+import {AboutOne, FeatureOne, FooterOne, HeaderTwo, HeroOne, ServiceOne, TeamOne,} from '../containers';
 
 const HomeOne = ()=> (
   <Fragment>
@@ -12,7 +12,7 @@ const HomeOne = ()=> (
       <AboutOne className="space-bottom"/>
     </div>
     <ServiceOne className="space-top space-extra-bottom"/>
-    {/*<TeamOne className="space-top space-extra-bottom"/>*/}
+    <TeamOne className="space-top space-extra-bottom"/>
     <FooterOne/>
     <ScrollTopBtn/>
   </Fragment>

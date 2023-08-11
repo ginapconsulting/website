@@ -9,8 +9,8 @@ const HeaderTwo = () => (
       </HeaderTop.Left>
       <HeaderTop.Right>
         <IconLink className="header-social style-white" title="Follow Us On:">
-          <IconLink.Item icon="fab fa-linkedin" path="/" />
-          <IconLink.Item icon="fab fa-twitter" path="/" />
+          <IconLink.Item icon="fab fa-linkedin" path="https://www.linkedin.com/company/ginapconsulting" />
+          <IconLink.Item icon="fab fa-twitter" path="https://twitter.com/Ginapconsult" />
         </IconLink>
       </HeaderTop.Right>
     </HeaderTop>

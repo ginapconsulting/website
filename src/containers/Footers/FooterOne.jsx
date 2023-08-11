@@ -49,8 +49,8 @@ const FooterOne = ()=> (
               <AboutWidget>
                 <AboutWidget.Text>We're committed to empowering organizations with innovative technology solutions that drive growth, streamline operations, and achieve strategic goals.</AboutWidget.Text>
                 <IconLink className="footer-social">
-                  <IconLink.Item icon="fab fa-linkedin" path="/"/>
-                  <IconLink.Item icon="fab fa-twitter" path="/"/>
+                  <IconLink.Item icon="fab fa-linkedin" path="https://www.linkedin.com/company/ginapconsulting"/>
+                  <IconLink.Item icon="fab fa-twitter" path="https://twitter.com/Ginapconsult"/>
                 </IconLink>
               </AboutWidget>
             </Widget>

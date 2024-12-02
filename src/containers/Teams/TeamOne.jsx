@@ -35,19 +35,20 @@ const TeamOne = ({...restProps})=> {
 
   return (
     <div {...restProps}>
-      <div className="container">
+      <div className="container d-none">
         <TitleWrap className="text-center">
           <SecSubTitle>Great Team Members</SecSubTitle>
           <SecTitle className="h1">Our Core Team</SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
-          {/*<TeamBoxOne path="/"*/}
-          {/*  name="Victor Ocheja"*/}
-          {/*  desgination="Director, Business & Operations"*/}
-          {/*  image="images/team/victor.png"*/}
-          {/*            linkedIn={'https://www.linkedin.com/in/victor-ocheja'}*/}
-          {/*            twitter={'https://twitter.com/ochejav'}*/}
-          {/*/>*/}
+          <TeamBoxOne path="/"
+            name="Victor Ocheja"
+                      hidden
+            desgination="Director, Business & Operations"
+            image="images/team/victor.png"
+                      linkedIn={'https://www.linkedin.com/in/victor-ocheja'}
+                      twitter={'https://twitter.com/ochejav'}
+          />
           <TeamBoxOne path="/"
             name="Vera Oguche"
             desgination="HR Manager"

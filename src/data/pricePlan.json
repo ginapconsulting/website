@@ -1,58 +1,58 @@
 [
   {
     "bgImage": "images/shape/price-bg-shape-1-1.png",
-    "title": "Basic Plan",
-    "price": "$29.99",
-    "duration": "monthly",
+    "title": "Starter",
+    "price": "$2,500",
+    "duration": "per month",
     "path": "/contact",
     "features": [
-      "Ad Management",
-      "Live Chat",
-      "Multi-Language Content",
-      "Conversational Bots",
-      "Programmable Chatbots"
+      "Up to 40 consulting hours",
+      "Discovery & solution architecture",
+      "Implementation support (1 active workstream)",
+      "Lightweight AI/ML prototype",
+      "Email support, 48h response"
     ]
   },
   {
     "bgImage": "images/shape/price-bg-shape-1-1.png",
-    "title": "Silver Plan",
-    "price": "$39.99",
-    "duration": "anually",
+    "title": "Growth",
+    "price": "$5,000",
+    "duration": "per month",
     "path": "/contact",
     "features": [
-      "Ad Management",
-      "Live Chat",
-      "Multi-Language Content",
-      "Conversational Bots",
-      "Programmable Chatbots"
+      "Up to 80 consulting hours",
+      "Solution design + implementation",
+      "2 active workstreams",
+      "AI/ML POC with data preparation",
+      "Slack support, 24h response"
     ]
   },
   {
     "bgImage": "images/shape/price-bg-shape-1-1.png",
-    "title": "Gold Plan",
-    "price": "$59.99",
-    "duration": "yearly",
+    "title": "Scale",
+    "price": "$9,000",
+    "duration": "per month",
     "path": "/contact",
     "features": [
-      "Ad Management",
-      "Live Chat",
-      "Multi-Language Content",
-      "Conversational Bots",
-      "Programmable Chatbots"
+      "Up to 160 consulting hours",
+      "End-to-end delivery (3+ workstreams)",
+      "Cloud deployment & CI/CD",
+      "Analytics dashboards & training",
+      "Priority support, same business day"
     ]
   },
   {
     "bgImage": "images/shape/price-bg-shape-1-1.png",
-    "title": "VIP Plan",
-    "price": "$29.99",
-    "duration": "lifetime",
+    "title": "Enterprise",
+    "price": "Custom",
+    "duration": "tailored",
     "path": "/contact",
     "features": [
-      "Ad Management",
-      "Live Chat",
-      "Multi-Language Content",
-      "Conversational Bots",
-      "Programmable Chatbots"
+      "Dedicated team & PMO",
+      "Security, compliance, SSO/SCIM",
+      "Advanced AI/ML initiatives",
+      "24/7 support & SLA",
+      "Volume pricing via Paddle"
     ]
   }
 ]

@@ -53,6 +53,10 @@
       "path": "/about"
     },
     {
+      "name": "Pricing",
+      "path": "/pricing"
+    },
+    {
       "name": "Meet The Teams",
       "path": "/team"
     },
@@ -61,8 +65,16 @@
       "path": "/contact"
     },
     {
+      "name": "Terms of Service",
+      "path": "/terms-and-conditions"
+    },
+    {
       "name": "Privacy Policy",
-      "path": "/"
+      "path": "/privacy-policy"
+    },
+    {
+      "name": "Refund Policy",
+      "path": "/refund-policy"
     }
   ],
   "exploreLinks": [

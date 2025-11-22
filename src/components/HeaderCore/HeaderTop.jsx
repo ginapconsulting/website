@@ -15,7 +15,7 @@ HeaderTop.Left = ({children})=> (
 );
 
 HeaderTop.Right = ({children})=> (
-  <div className="col-auto d-none d-md-block">{children}</div>
+  <div className="col-12 col-md-auto">{children}</div>
 );
 
 

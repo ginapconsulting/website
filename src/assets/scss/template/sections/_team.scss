@@ -59,11 +59,16 @@
   .team-img {
     overflow: hidden;
     position: relative;
+    background-color: $white-color;
+    aspect-ratio: 4 / 5; /* portrait card boxes */
 
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover; /* fill box, allow crop */
+      object-position: top center; /* keep heads visible, crop bottom */
       transition: all ease 0.4s;
-      transform: scale(1);
+      transform: none;
     }
   }
 
@@ -90,7 +95,7 @@
 
     .team-img {
       img {
-        transform: scale(1.1);
+        transform: none; /* prevent zoom crop on hover */
       }
     }
   }

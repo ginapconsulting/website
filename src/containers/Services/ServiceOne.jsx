@@ -20,7 +20,7 @@ const ServiceOne = ({className})=>  (
           <div className="col-md-6 col-lg-4" key={item.id}>
             <ServiceBoxOne
               path={item.path}
-              bgImage={item.bgShape}
+              bgImage={item.image}
               image={item.image}
               title={item.title}
               text={item.text}

@@ -220,18 +220,28 @@ Version: 1.0.0
 .ca-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 2px 10px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  font-weight: 600;
-  font-size: 12px;
-  text-transform: uppercase;
+  gap: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
   margin-right: 14px;
 }
-.ca-badge i {
-  font-size: 12px;
+.ca-badge__leaf {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 1;
+  vertical-align: -1px;
+  color: #fff; /* svg uses currentColor */
+}
+.ca-badge__flag {
+  display: block;
+  height: 32px;
+  width: 32px;
+  max-width: none;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 /*----------------------------------
@@ -282,9 +292,9 @@ Version: 1.0.0
 }
 .team-style1 .team-img img {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  height: auto;
+  height: 100%;
   object-fit: cover;
+  object-position: top center;
   display: block;
 }
 

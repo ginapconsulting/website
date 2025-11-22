@@ -457,6 +457,15 @@
     }
   }
 
+  /* Non-clickable static icon in the social block (e.g., Canada flag) */
+  .header-social-flag {
+    display: inline-block;
+    height: 32px;
+    width: auto;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
   &.style-white {
     .social-title,
     a {
@@ -694,6 +703,14 @@
       font-size: 20px;
       margin-right: 10px;
     }
+  }
+
+  /* Center social icons and static flag on small screens */
+  .header-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .header-links {

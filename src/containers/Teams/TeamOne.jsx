@@ -62,7 +62,7 @@ const TeamOne = ({...restProps})=> {
           <TeamBoxOne path="https://www.linkedin.com/in/patrickocheja/"
             name="Patrick Ocheja, Ph.D."
             desgination="Senior Partner"
-            image="images/team/patricko.jpeg"
+            image="images/team/patrickoc.jpg"
             linkedIn={'https://www.linkedin.com/in/patrickocheja/'}
                       twitter={'https://twitter.com/ochejapatrick'}
           />

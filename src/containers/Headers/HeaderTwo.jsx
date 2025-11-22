@@ -8,8 +8,9 @@ const HeaderTwo = () => (
         <p className="note_style1"><span className="note_title">Now Hiring:</span>Are you a motivated Software Engineer or UI/UX Designer? Want to work with us? Send us an email</p>
       </HeaderTop.Left>
       <HeaderTop.Right>
-        <span className="ca-badge"><i className="fas fa-flag" /> Canada</span>
-        <IconLink className="header-social style-white" title="Follow Us On:">
+        <IconLink className="header-social style-white">
+          <img className="header-social-flag" src="images/canada.png" alt="Canada" loading="eager" decoding="async" />
+          <span className="social-title">Follow Us On:</span>
           <IconLink.Item icon="fab fa-linkedin" path="https://www.linkedin.com/company/ginapconsulting" />
           <IconLink.Item icon="fab fa-twitter" path="https://twitter.com/Ginapconsult" />
         </IconLink>

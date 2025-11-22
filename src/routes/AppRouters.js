@@ -7,7 +7,7 @@ import HomeOne from '../pages/HomeOne';
 // About Page
 // Blog Pages
 // Pricing Plans Page
-import PricePlan from '../pages/PricePlan';
+// import PricePlan from '../pages/PricePlan';
 // Service Pages
 import Service from '../pages/Service';
 
@@ -16,7 +16,7 @@ import Service from '../pages/Service';
 // Project Pages
 
 // Contact Page
-import Contact from '../pages/Contact';
+// import Contact from '../pages/Contact';
 // Policy Pages
 import Terms from '../pages/Terms';
 import Privacy from '../pages/Privacy';

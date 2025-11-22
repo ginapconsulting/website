@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import {SecSubTitle, SecTitle, TeamBoxOne, TitleWrap} from '../../components';
+import {SecTitle, TeamBoxOne, TitleWrap} from '../../components';
 
 const TeamOne = ({...restProps})=> {
   const settings = {

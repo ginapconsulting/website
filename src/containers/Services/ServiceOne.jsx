@@ -1,5 +1,5 @@
 import React from 'react';
-import {SecSubTitle, SecTitle, ServiceBoxOne, TitleWrap} from '../../components';
+import {SecTitle, ServiceBoxOne, TitleWrap} from '../../components';
 
 
 // Service Data

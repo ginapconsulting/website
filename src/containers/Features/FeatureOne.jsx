@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import {SecSubTitle, SecTitle, TitleWrap} from '../../components/';
+import {SecTitle, TitleWrap} from '../../components/';
 
 const FeatureOne = ({className})=> {
 

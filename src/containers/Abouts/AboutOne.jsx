@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, ImageBoxOne, SecSubTitle, SecTitle} from '../../components';
+import {ImageBoxOne, SecTitle} from '../../components';
 
 const AboutOne = ({className})=> (
   <div className={`position-relative ${className || ''}`}>

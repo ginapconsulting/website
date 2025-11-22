@@ -13,10 +13,10 @@ const Privacy = () => (
           <div className="col-lg-10">
             <h2>Privacy Policy</h2>
             <p><strong>Effective Date:</strong> September 24, 2025</p>
-            <p>GINAP Consulting Ltd ("GINAP Consulting", "we", "us", or "our") respects your privacy. This policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.</p>
+            <p>GINAP Consulting Inc. ("GINAP Consulting", "we", "us", or "our") respects your privacy. This policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.</p>
 
             <h4>1. Data Controller</h4>
-            <p>GINAP Consulting Ltd, RC: 7070569. Contact: <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>.</p>
+            <p>GINAP Consulting Inc. Contact: <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>.</p>
 
             <h4>2. Information We Collect</h4>
             <ul>

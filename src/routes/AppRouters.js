@@ -32,7 +32,7 @@ const AppRouters = () => (
       {/*<Route path="/home-two" exact element={<HomeTwo />} />
       <Route path="/home-three" exact element={<HomeThree />} />
       <Route path="/about" exact element={<About/>} />*/}
-      <Route path="/pricing" exact element={<PricePlan/>} />
+      {/* <Route path="/pricing" exact element={<PricePlan/>} /> */}
       <Route path="/service" exact element={<Service/>} />
       {/*<Route path="/service-details" exact element={<ServiceDetails/>} />
       <Route path="/project" exact element={<Project/>} />
@@ -42,7 +42,7 @@ const AppRouters = () => (
       <Route path="/blog" exact element={<Blog/>} />
       <Route path="/blog-grid" exact element={<BlogGrid/>} />
       <Route path="/blog-details" exact element={<BlogDetails/>} />*/}
-      <Route path="/contact" exact element={<Contact/>} />
+      {/* <Route path="/contact" exact element={<Contact/>} /> */}
       <Route path="/terms-and-conditions" exact element={<Terms/>} />
       <Route path="/privacy-policy" exact element={<Privacy/>} />
       <Route path="/refund-policy" exact element={<Refund/>} />

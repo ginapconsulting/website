@@ -2,7 +2,7 @@
   {
     "id": "1",
     "path": "/service-details",
-    "image": "images/service/sr-3-5.jpg",
+    "image": "images/service/ai-chat.jpeg",
     "icon": "images/icon/sr-icon-3-5.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
@@ -12,7 +12,7 @@
   {
     "id": "2",
     "path": "/service-details",
-    "image": "images/service/sr-3-2.jpg",
+    "image": "images/service/soft-dev.jpeg",
     "icon": "images/icon/sr-icon-3-2.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "path": "/service-details",
-    "image": "images/service/sr-3-1.jpg",
+    "image": "images/service/cloud-ai.jpg",
     "icon": "images/icon/sr-icon-3-1.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",
@@ -52,7 +52,7 @@
   {
     "id": "6",
     "path": "/service-details",
-    "image": "images/service/sr-3-6.jpg",
+    "image": "images/service/training.jpeg",
     "icon": "images/icon/sr-icon-3-6.png",
     "bgShape": "images/bg/sr-box-bg-1.jpg",
     "bgShape2": "images/shape/sr-bg-shape-2-1.png",

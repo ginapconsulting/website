@@ -11,17 +11,17 @@ const ServiceOne = ({className})=>  (
       <div className="row justify-content-center text-center">
         <div className="col-lg-8 col-xl-6">
           <TitleWrap>
-            <SecSubTitle>Our Latest Services</SecSubTitle>
-            <SecTitle className="h1">What Kind of Services We are Offering</SecTitle>
+            <SecTitle className="h1">Our Services</SecTitle>
           </TitleWrap>
         </div>
       </div>
       <div className="row">
         {serviceData.map(item => (
           <div className="col-md-6 col-lg-4" key={item.id}>
-            <ServiceBoxOne path={item.path}
+            <ServiceBoxOne
+              path={item.path}
               bgImage={item.bgShape}
-              icon={item.icon}
+              image={item.image}
               title={item.title}
               text={item.text}
             />

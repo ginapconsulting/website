@@ -35,9 +35,8 @@ const TeamOne = ({...restProps})=> {
 
   return (
     <div {...restProps}>
-      <div className="container d-none">
+      <div className="container ">
         <TitleWrap className="text-center">
-          <SecSubTitle>Great Team Members</SecSubTitle>
           <SecTitle className="h1">Our Core Team</SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
@@ -45,7 +44,7 @@ const TeamOne = ({...restProps})=> {
             name="Victor Ocheja"
                       hidden
             desgination="Director, Business & Operations"
-            image="images/team/victor.png"
+            image="images/team/victoro.jpeg"
                       linkedIn={'https://www.linkedin.com/in/victor-ocheja'}
                       twitter={'https://twitter.com/ochejav'}
           />
@@ -56,14 +55,14 @@ const TeamOne = ({...restProps})=> {
           />
           <TeamBoxOne path="https://www.linkedin.com/in/regina-ochonu/"
                       name="Regina Ochonu"
-                      desgination="Senior Partner - Engineering"
+                      desgination="Senior Partner"
                       image="images/team/gina.jpeg"
                       linkedIn={'https://www.linkedin.com/in/regina-ochonu/'}
           />
           <TeamBoxOne path="https://www.linkedin.com/in/patrickocheja/"
-            name="Patrick Ocheja"
-            desgination="Senior Partner - AI & Blockchain"
-            image="images/team/patrick.jpeg"
+            name="Patrick Ocheja, Ph.D."
+            desgination="Senior Partner"
+            image="images/team/patricko.jpeg"
             linkedIn={'https://www.linkedin.com/in/patrickocheja/'}
                       twitter={'https://twitter.com/ochejapatrick'}
           />

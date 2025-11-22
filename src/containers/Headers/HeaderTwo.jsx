@@ -8,6 +8,7 @@ const HeaderTwo = () => (
         <p className="note_style1"><span className="note_title">Now Hiring:</span>Are you a motivated Software Engineer or UI/UX Designer? Want to work with us? Send us an email</p>
       </HeaderTop.Left>
       <HeaderTop.Right>
+        <span className="ca-badge"><i className="fas fa-flag" /> Canada</span>
         <IconLink className="header-social style-white" title="Follow Us On:">
           <IconLink.Item icon="fab fa-linkedin" path="https://www.linkedin.com/company/ginapconsulting" />
           <IconLink.Item icon="fab fa-twitter" path="https://twitter.com/Ginapconsult" />
@@ -22,18 +23,18 @@ const HeaderTwo = () => (
           </div>
           <InfoMedia className="header-media col-auto"
                      icon="fas fa-phone-alt"
-                     title="Call us 24/7"
-                     info={<a href="tel:+2348068674787">+234 806 867 4787</a>}
+                     title="Call us"
+                     info={<a href="tel:+14372923479">+1 (437) 292-3479</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
                      icon="fas fa-envelope"
-                     title="Mail Us For Support"
-                     info={<a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>}
+                     title="Mail Us"
+                     info={<a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-xl-flex"
                      icon="fas fa-map-marker-alt"
-                     title="Office Address"
-                     info="Fehintolu Block, Lokoja"
+                     title="334 Thimble Weed Crt"
+                     info="Milton, ON"
           />
         </div>
       </div>

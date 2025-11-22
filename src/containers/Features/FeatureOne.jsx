@@ -1,61 +1,149 @@
 import React from 'react';
-import {FeatureBoxOne} from '../../components/';
 import Slider from 'react-slick';
+import {SecSubTitle, SecTitle, TitleWrap} from '../../components/';
 
 const FeatureOne = ({className})=> {
-
-  const settings = {
-    autoplay: true,
-    autoplaySpeed: 8000,
-    infinite: true,
-    arrows: false,
-    speed: 1000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
 
   return (
     <div className={`feature-wrap1 ${className || ''}`}>
       <div className="container">
-        <Slider className="row" {...settings}>
-          <FeatureBoxOne
-            title="Development Services"
-            text="Experience the transformative impact of tailored technology with our Development Services, aligning innovation with your business goals."
-            image="images/icon/fe-1-1.png"
-            path="/service"
-          />
-          <FeatureBoxOne
-            title="Consulting Services"
-            text="Navigate the digital landscape confidently with our Consulting Services, empowering your organization to leverage technology effectively for operational improvement."
-            image="images/icon/fe-1-3.png"
-            path="/service"
-          />
-          <FeatureBoxOne
-              title="Marketing Services"
-              text="Unlock new growth opportunities with our Marketing Services, harnessing the power of data-driven strategies and digital tools to enhance your brand's reach."
-              image="images/icon/fe-1-2.png"
-              path="/service"
-          />
+        <div className="row justify-content-center text-center">
+          <div className="col-lg-8 col-xl-6">
+            <TitleWrap>
+              <SecTitle className="h1">Partners &amp; Platforms</SecTitle>
+            </TitleWrap>
+          </div>
+        </div>
+        <Slider
+          className="seal-grid"
+          autoplay
+          infinite
+          arrows={false}
+          speed={8000}
+          autoplaySpeed={0}
+          cssEase="linear"
+          slidesToShow={6}
+          slidesToScroll={1}
+          responsive={[
+            { breakpoint: 1200, settings: { slidesToShow: 5 } },
+            { breakpoint: 992, settings: { slidesToShow: 4 } },
+            { breakpoint: 768, settings: { slidesToShow: 3 } },
+            { breakpoint: 576, settings: { slidesToShow: 2 } },
+          ]}
+        >
+          {[
+            {
+              alt: 'Kumamoto University',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/kumamoto.jpg`,
+                `${process.env.PUBLIC_URL}/images/partners/kumamoto.png`,
+                `${process.env.PUBLIC_URL}/images/partners/kumamoto.svg`
+              ],
+            },
+            {
+              alt: 'Kyoto University',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/kyoto.png`,
+                `${process.env.PUBLIC_URL}/images/partners/kyoto.svg`
+              ]
+            },
+            {
+              alt: 'INSUS.ch',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/insuswhiteimg.png`,
+                `${process.env.PUBLIC_URL}/images/partners/insus.png`,
+                `${process.env.PUBLIC_URL}/images/partners/insus.svg`
+              ],
+              className: 'gradient-blue-teal'
+            },
+            {
+              alt: 'CreatorAdvance.co',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/creatoradvance.png`,
+                `${process.env.PUBLIC_URL}/images/partners/creatoradvance.svg`
+              ]
+            },
+            {
+              alt: 'Eftax Co., Ltd.',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/eftax.png`,
+                `${process.env.PUBLIC_URL}/images/partners/eftax.svg`
+              ]
+            },
+            {
+              alt: 'UrbanEcho.io',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/urbanecho.svg`,
+                `${process.env.PUBLIC_URL}/images/partners/urbanecho.png`
+              ]
+            },
+            // Platforms
+            {
+              alt: 'Google Cloud',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/googlecloud.png`
+              ]
+            },
+            {
+              alt: 'Amazon Web Services',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/aws.png`
+              ]
+            },
+            {
+              alt: 'Microsoft Azure',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/azure.png`
+              ]
+            },
+            {
+              alt: 'OpenAI',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/openai.png`
+              ]
+            },
+            {
+              alt: 'Anthropic',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/anthropic.png`
+              ]
+            },
+            {
+              alt: 'Claude',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/claude.png`
+              ]
+            },
+            {
+              alt: 'Grok',
+              sources: [
+                `${process.env.PUBLIC_URL}/images/partners/grok.png`
+              ]
+            },
+          ].map((logo, idx) => (
+            <div key={logo.alt}>
+              <div className={`seal-item ${logo.className || ''}`} aria-label={logo.alt}>
+                <img
+                  src={logo.sources[0]}
+                  alt={`${logo.alt} logo`}
+                  data-index="0"
+                  onError={(e)=> {
+                    const el = e.currentTarget;
+                    const i = parseInt(el.getAttribute('data-index') || '0', 10);
+                    const next = i + 1;
+                    if (next < logo.sources.length) {
+                      el.setAttribute('data-index', String(next));
+                      el.src = logo.sources[next];
+                      return;
+                    }
+                    el.onerror = null;
+                    el.src = `${process.env.PUBLIC_URL}/images/brand/br-1-${(idx%6)+1}.png`;
+                  }}
+                />
+                {logo.label ? <div className="seal-label">{logo.label}</div> : null}
+              </div>
+            </div>
+          ))}
         </Slider>
       </div>
     </div>

@@ -4,19 +4,7 @@
     "path": "/"
   },
   {
-    "name": "About Us",
-    "path": "/about"
-  },
-  {
-    "name": "Service",
+    "name": "Services",
     "path": "/service"
-  },
-  {
-    "name": "Blog",
-    "path": "/blog"
-  },
-  {
-    "name": "Contact",
-    "path": "/contact"
   }
 ]

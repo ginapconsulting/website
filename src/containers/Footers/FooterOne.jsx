@@ -16,25 +16,25 @@ const FooterOne = ()=> (
           <div className="footer-media col-sm">
             <InfoMedia
               icon="fal fa-map-marker-alt"
-              title="Office Address"
-              info="Fehintolu Block, Lokoja, Kogi State, Nigeria"
+              title="Head Office"
+              info="334 Thimble Weed Crt, Milton, ON"
             />
           </div>
           <div className="footer-media col-sm">
             <InfoMedia
               icon="fal fa-clock"
               title="Working Hours"
-              info="Weekdays 8am - 6pm Weekend 10am - 12pm"
+              info="Mon - Fri 9am - 6pm ET"
             />
           </div>
           <div className="footer-media col-sm">
             <InfoMedia
               icon="fal fa-phone-volume"
-              title="Contact Us"
+              title="Contact"
               info={<>
-                <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>
+                <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>
                 <br/>
-                <a href="tel:+2348068674787">(+234) 806 867  4787</a>
+                <a href="tel:+14372923479">(437) 292 3479</a>
               </>}
             />
           </div>
@@ -78,7 +78,7 @@ const FooterOne = ()=> (
     </div>
     <div className="copyright-wrap">
       <div className="container">
-        <p className="copyright-text">Copyright <i className="fal fa-copyright"/> 2022 <Link className="text-white" to="/">GINAP Consulting</Link>. All rights reserved by GINAP Consulting Ltd, RC: 7070569.</p>
+        <p className="copyright-text">Copyright <i className="fal fa-copyright"/> 2025 <Link className="text-white" to="/">GINAP Consulting</Link>. All rights reserved by GINAP Consulting Inc.</p>
       </div>
     </div>
   </footer>

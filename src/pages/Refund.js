@@ -13,7 +13,7 @@ const Refund = () => (
           <div className="col-lg-10">
             <h2>Refund Policy</h2>
             <p><strong>Effective Date:</strong> September 24, 2025</p>
-            <p>We want you to be confident in purchasing from GINAP Consulting Ltd. This policy explains when refunds may be issued for digital consulting services and technology solutions.</p>
+            <p>We want you to be confident in purchasing from GINAP Consulting Inc. This policy explains when refunds may be issued for digital consulting services and technology solutions.</p>
 
             <h4>1. General Policy</h4>
             <ul>

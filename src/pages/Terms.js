@@ -13,7 +13,7 @@ const Terms = () => (
           <div className="col-lg-10">
             <h2>Terms of Service</h2>
             <p><strong>Effective Date:</strong> September 24, 2025</p>
-            <p>These Terms of Service ("Terms") govern your access to and use of the services and products provided by GINAP Consulting Ltd ("GINAP Consulting", "we", "us", or "our"). By using our website or engaging our services, you agree to these Terms.</p>
+            <p>These Terms of Service ("Terms") govern your access to and use of the services and products provided by GINAP Consulting Inc. ("GINAP Consulting", "we", "us", or "our"). By using our website or engaging our services, you agree to these Terms.</p>
 
             <h4>1. Services</h4>
             <p>We provide digital consulting services and technology solutions including software development, AI and machine learning tools, cloud-based applications, analytics platforms, and related training and advisory services.</p>
@@ -46,7 +46,7 @@ const Terms = () => (
             <p>Either party may terminate for material breach if not cured within 30 days of written notice. Upon termination, you will pay for services rendered through the termination date.</p>
 
             <h4>11. Governing Law</h4>
-            <p>These Terms are governed by the laws of Nigeria, without regard to conflict of law principles. Venue and jurisdiction shall be in courts located in Nigeria.</p>
+            <p>These Terms are governed by the laws of Canada, without regard to conflict of law principles. Venue and jurisdiction shall be in courts located in Canada.</p>
 
             <h4>12. Changes to Terms</h4>
             <p>We may update these Terms from time to time. Changes are effective when posted on this page. If material, we will provide reasonable notice.</p>

@@ -20,7 +20,7 @@ const HeaderOne = () => (
           <InfoMedia className="header-media col-auto"
             icon="fas fa-phone-alt"
             title="Call us 24/7"
-            info={<a href="tel:+2348068674787">+234 806 867 4787</a>}
+            info={<a href="tel:+14372923479">(437) 292 3479</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"

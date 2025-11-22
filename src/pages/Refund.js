@@ -32,13 +32,13 @@ const Refund = () => (
             <p>For monthly plans, you may cancel at any time to avoid future charges. Fees already paid for the current billing period are non-refundable unless required by law.</p>
 
             <h4>4. How to Request a Refund</h4>
-            <p>Email <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a> with your company name, invoice number, purchase email, and a description of the issue.</p>
+            <p>Email <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a> with your company name, invoice number, purchase email, and a description of the issue.</p>
 
             <h4>5. Payments via Paddle</h4>
             <p>Payments are processed by Paddle, our Merchant of Record. Refunds, where applicable, will be issued through Paddle to your original payment method subject to Paddle's buyer terms and timelines.</p>
 
             <h4>6. Contact</h4>
-            <p>For refund questions, contact <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>.</p>
+            <p>For refund questions, contact <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>.</p>
           </div>
         </div>
       </div>

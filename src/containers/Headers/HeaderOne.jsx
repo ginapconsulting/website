@@ -25,12 +25,12 @@ const HeaderOne = () => (
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"
             title="Mail Us For Support"
-            info={<a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>}
+            info={<a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
             title="Office Address"
-            info="Fehintolu Block, Lokoja"
+            info="334 Thimble Weed Crt, Milton, ON"
           />
         </div>
       </div>

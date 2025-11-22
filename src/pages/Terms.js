@@ -28,7 +28,7 @@ const Terms = () => (
             <p>Applicable taxes (including VAT/GST/Sales Tax) may be calculated and collected by Paddle depending on your location and the nature of the services.</p>
 
             <h4>5. Refunds</h4>
-            <p>Our <a href="/refund-policy">Refund Policy</a> explains when refunds may be issued. For billing errors or duplicate charges, contact us at <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>.</p>
+            <p>Our <a href="/refund-policy">Refund Policy</a> explains when refunds may be issued. For billing errors or duplicate charges, contact us at <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>.</p>
 
             <h4>6. Intellectual Property</h4>
             <p>Unless otherwise agreed in a statement of work, we retain ownership of our pre-existing IP, tools, accelerators, and methodologies. Project-specific deliverables may be licensed or assigned as agreed in writing.</p>
@@ -52,7 +52,7 @@ const Terms = () => (
             <p>We may update these Terms from time to time. Changes are effective when posted on this page. If material, we will provide reasonable notice.</p>
 
             <h4>13. Contact</h4>
-            <p>Questions about these Terms? Contact <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>.</p>
+            <p>Questions about these Terms? Contact <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>.</p>
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const Privacy = () => (
             <p>We implement administrative, technical, and physical safeguards appropriate to the risk. No method of transmission or storage is 100% secure.</p>
 
             <h4>10. Your Rights</h4>
-            <p>Depending on your location, you may have rights to access, correct, delete, or port your data, or object to/limit processing. To exercise rights, contact us at <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>.</p>
+            <p>Depending on your location, you may have rights to access, correct, delete, or port your data, or object to/limit processing. To exercise rights, contact us at <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>.</p>
 
             <h4>11. Third-Party Links</h4>
             <p>Our website may contain links to third-party sites. We are not responsible for their privacy practices.</p>
@@ -63,7 +63,7 @@ const Privacy = () => (
             <p>We may update this policy periodically. We will post the updated version and revise the effective date.</p>
 
             <h4>13. Contact</h4>
-            <p>Questions about this policy? Contact <a href="mailto:hello@ginapconsulting.com">hello@ginapconsulting.com</a>.</p>
+            <p>Questions about this policy? Contact <a href="mailto:hello@ginapconsulting.ca">hello@ginapconsulting.ca</a>.</p>
           </div>
         </div>
       </div>

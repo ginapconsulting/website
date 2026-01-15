@@ -59,12 +59,11 @@ const TeamOne = ({...restProps})=> {
                       image="images/team/gina.jpeg"
                       linkedIn={'https://www.linkedin.com/in/regina-ochonu/'}
           />
-          <TeamBoxOne path="https://www.linkedin.com/in/patrickocheja/"
-            name="Patrick Ocheja, Ph.D."
-            desgination="Senior Partner"
-            image="images/team/patrickoc.jpg"
-            linkedIn={'https://www.linkedin.com/in/patrickocheja/'}
-                      twitter={'https://twitter.com/ochejapatrick'}
+          <TeamBoxOne path="https://www.linkedin.com/in/olamikunleogunleye/"
+            name="Olamikunle (Kunle) Ogunleye, Ph.D."
+            desgination="Project Manager"
+            image="images/team/kunle.jpeg"
+            linkedIn={'https://www.linkedin.com/in/olamikunleogunleye/'}
           />
         </Slider>
       </div>

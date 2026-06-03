@@ -40,14 +40,14 @@ const TeamOne = ({...restProps})=> {
           <SecTitle className="h1">Our Core Team</SecTitle>
         </TitleWrap>
         <Slider className="row" {...settings}>
-          {/* <TeamBoxOne path="/"
+          <TeamBoxOne path="/"
             name="Victor Ocheja"
                       hidden
             desgination="Director, Business & Operations"
             image="images/team/victoro.jpeg"
                       linkedIn={'https://www.linkedin.com/in/victor-ocheja'}
                       twitter={'https://twitter.com/ochejav'}
-          /> */}
+          />
           <TeamBoxOne path="/"
             name="Vera Oguche"
             desgination="HR Manager"
